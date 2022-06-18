@@ -1,0 +1,39 @@
+.myTodos {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.myTodos_item {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid rgb(119, 255, 158);
+}
+
+.myTodos_item span {
+    margin: 0 13px;
+    text-align: center;
+}
+
+.myBtn_fetch {
+    margin: 0 auto 30px auto;
+    padding: 0;
+    text-transform: lowercase;
+    width: 250px;
+    height: 70px;
+    min-width: fit-content;
+    min-height: fit-content;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myBtn_fetch p{
+    padding: 0;
+    margin: 0;
+}
